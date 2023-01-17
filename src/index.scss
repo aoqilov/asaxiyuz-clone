@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.block {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4f7fd;
+  aside {
+    width: 25%;
+    padding: 1px;
+  }
+  section {
+    width: 73%;
+    padding: 1px;
+  }
+}

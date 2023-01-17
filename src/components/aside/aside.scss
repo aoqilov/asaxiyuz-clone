@@ -1,0 +1,207 @@
+.book {
+  background-color: white;
+  width: 310px;
+  padding: 15px 0 0 0;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px gray;
+  .title {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+    height: 50px;
+    align-items: center;
+    h5 {
+      color: #858997;
+      font-size: 18px;
+    }
+    img {
+      width: 60px;
+    }
+  }
+  .info-book {
+    padding: 5px 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #858997;
+    img {
+      width: 70px;
+      height: 80px;
+      object-fit: fill;
+    }
+    .name-book {
+      line-height: 10px;
+      margin-left: 10px;
+      .h5 {
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.741);
+        font-weight: bold;
+        text-transform: capitalize;
+        line-height: 16px;
+      }
+      p {
+        font-size: 14px;
+        color: #858997;
+      }
+    }
+  }
+}
+.for-you {
+  .cards-first {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  h1 {
+    position: relative;
+    bottom: 12px;
+    font-size: 16px;
+    color: #72777e;
+    display: flex;
+  }
+
+  .card {
+    width: 315px;
+    padding: 10px 10px 20px 10px;
+    border-radius: 17px;
+    position: relative;
+    background-color: white;
+    box-shadow: 2px 2px 5px gray;
+    .top-icons {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 25px;
+      padding: 0px 5px;
+      p {
+        padding: 2px 10px;
+        background-color: orange;
+        border-radius: 20px;
+        z-index: 2121;
+      }
+      .icon {
+        color: white;
+        padding: 2px 5px;
+        border-radius: 8px;
+        z-index: 2121;
+        background-color: #008bfb;
+      }
+    }
+    .imgbox {
+      width: 180px;
+      height: 160px;
+      background-color: rebeccapurple;
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translate(-50%, 10%);
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .title {
+      margin-top: 80%;
+      h4 {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.745);
+        margin: 0 auto;
+      }
+    }
+    .stars {
+      display: flex;
+      align-items: center;
+      .star-icon {
+        color: #008bfb;
+        font-size: 15px;
+        margin: 0 1px;
+      }
+      .coment {
+        margin-left: 30px;
+        display: flex;
+        align-items: center;
+        .coment-icon {
+          font-size: 15px;
+          color: #c2c6d1;
+        }
+        p {
+          margin-left: 5px;
+          font-size: 12px;
+          color: #c2c6d1;
+        }
+      }
+    }
+    .number-cost {
+      height: 85px;
+      position: relative;
+      bottom: 15px;
+      h6 {
+        position: relative;
+        bottom: 10px;
+        font-size: 14px;
+        color: #af5679;
+        font-weight: 500;
+        line-height: 20px;
+        text-decoration: line-through;
+      }
+      h3 {
+        position: absolute;
+        top: 3%;
+        font-size: 18px;
+        line-height: 20px;
+        font-weight: 500;
+        color: #141821;
+      }
+      h2 {
+        position: absolute;
+        top: 40%;
+        font-size: 14px;
+        line-height: 20px;
+        color: #ff0000;
+        font-weight: 500;
+      }
+      h5 {
+        position: absolute;
+        top: 53%;
+        font-size: 12px;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.7);
+        text-decoration: line-through;
+      }
+    }
+    .btns {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      .btn-green {
+        border: none;
+        outline: none;
+        background-color: #00df8d;
+        color: white;
+        font-size: 14px;
+        padding: 8px;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover {
+          background-color: #00c659;
+        }
+      }
+      .btn-blue {
+        &:hover {
+          background-color: #016ac1;
+        }
+        cursor: pointer;
+
+        border: none;
+        outline: none;
+        background-color: #008bfb;
+        color: white;
+        font-size: 14px;
+        padding: 8px 12px;
+        border-radius: 5px;
+      }
+    }
+  }
+}
